@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+
+a,li{
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    color:white;
+    border-width: 5px;
+    border-color: aqua;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: pink;
+    color: black;
+    display:flex;
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    
+}
+
+#ikon1{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: aliceblue;
+    color:aliceblue;
+    width: 250px;
+    height: 330px;
+}
+
+#image{
+    border-radius: 20px;
+    width: 200px;
+}
+
+#isiIkon{
+    text-align: center;
+    padding:10px;
+    padding-top: 25px;
+}
+
+table#catalog{
+    border-spacing: 40px;
+    margin:auto;
+}
