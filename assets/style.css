@@ -1,6 +1,10 @@
 body{
     background-color: black;
-    font-family: sans-serif;
+    font-family: "Lexend", sans-serif;
+    background-image: url(pink\,\ purple\ &\ yellow\ aesthetic\ gradient\ background\ mac.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 a,li{
@@ -9,19 +13,20 @@ a,li{
     
 }
 
+
+
 nav{
     display: flex;
     align-items: center;
     padding: 20px;
+    width: 1170px;
     justify-content: space-between;
-    color:white;
-    border-width: 5px;
-    border-color: aqua;
-    border-style: solid;
-    border-radius: 20px;
-    background-color: pink;
+    background-color: transparent;
     color: black;
     display:flex;
+    z-index: 999;
+    margin-left: 20px;
+    
 }
 
 
@@ -36,10 +41,16 @@ ul{
     border-width: 2px;
     border-style: solid;
     border-radius: 25px;
-    border-color: aliceblue;
+    border-color: transparent;
     color:aliceblue;
     width: 250px;
     height: 330px;
+    background-color: rgba(0,0,0,0.08);
+    backdrop-filter: blur(100px);
+}
+
+#ikon1:hover {
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.08);
 }
 
 #image{
