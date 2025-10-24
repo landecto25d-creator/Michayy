@@ -47,10 +47,12 @@ ul{
     height: 330px;
     background-color: rgba(0,0,0,0.08);
     backdrop-filter: blur(100px);
+    transition: box-shadow 650ms ease;
 }
 
 #ikon1:hover {
-    box-shadow: 10px 10px 20px rgba(0,0,0,0.08);
+    box-shadow: 15px 17px 20px rgba(0,0,0,0.1);
+    
 }
 
 #image{
